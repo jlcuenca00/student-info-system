@@ -4,7 +4,7 @@ include("auth.php");
 
 // Only admin can delete another admin
 if ($_SESSION['role'] !== 'admin') {
-    header("Location: index.php");
+    header("Location: admins.php");
     exit;
 }
 

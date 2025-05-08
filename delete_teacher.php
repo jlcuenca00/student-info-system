@@ -4,7 +4,7 @@ include("auth.php");
 
 // Only admin can delete a teacher
 if ($_SESSION['role'] !== 'admin') {
-    header("Location: index.php");
+    header("Location: teachers.php");
     exit;
 }
 

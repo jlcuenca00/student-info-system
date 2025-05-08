@@ -50,7 +50,7 @@ $stmt->close();
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f7f9;
+            background-color: #1b2631;
             margin: 0;
             padding: 0;
         }
@@ -307,7 +307,7 @@ $stmt->close();
                     <?php if ($role == 'admin'): ?>
                         <li><a href="admins.php" class="active">Administrators</a></li>
                     <?php endif; ?>
-                    <li><a href="profile.php">My Profile</a></li>
+
                 </ul>
             </nav>
             <div class="content-area">
